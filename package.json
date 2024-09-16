@@ -4,22 +4,29 @@
   "description": "The path to NGInx main folder: /usr/share/nginx/html",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabionolasco/personal-budget.git"
+    "url": "git+https://github.com/nitishgopalakrishnaJandhyam/personal-budget.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fabionolasco/personal-budget/issues"
+    "url": "git+https://github.com/nitishgopalakrishnaJandhyam/personal-budget.git"
   },
-  "homepage": "https://github.com/fabionolasco/personal-budget#readme",
+  "homepage": "https://github.com/nitishgopalakrishnaJandhyam/personal-budget.git",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.18.2",
+    "lint": "^0.8.19",
+    "mongoose": "^8.6.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0"
   }
 }
